@@ -7,7 +7,7 @@ int potValue = 0;//value of potentiometer
 int angle;//angle of the servo
 
 void setup(){
- servo.attach(9);//tell the servo what pin it's running on 
+ servo.attach(9);//tell the servo what pin it's running on
 }
 
 void loop(){
