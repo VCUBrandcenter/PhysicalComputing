@@ -8,6 +8,7 @@
 
 ### Potentiometer LED
 _This can be used for the potentiometer serial example as well._
+
 ![Potentiometer LED](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/potentiometer_1.png)
 
 ### Potentiometer LED Fade
@@ -15,12 +16,12 @@ _This can be used for the potentiometer serial example as well._
 
 ### Servo Examples
 _This can be used for Servo Example and Servo Potentiometer._
+
 ![Servo Examples](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/servo_bb.png)
 
 ### Turret Solution
 _Note: this wiring may not work with student solutions_
 
-_This can be used for Servo Example and Servo Potentiometer._
 ![Turret Solution](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/turret.png)
 
 
