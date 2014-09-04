@@ -19,6 +19,7 @@ _This can be used for Servo Example and Servo Potentiometer._
 
 ### Turret Solution
 _Note: this wiring may not work with student solutions_
+
 _This can be used for Servo Example and Servo Potentiometer._
 ![Turret Solution](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/turret.png)
 
