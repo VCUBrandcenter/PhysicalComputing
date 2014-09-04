@@ -3,7 +3,7 @@
 ### Basic Blink
 ![Basic Blink](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/led.png)
 
-### Button Blink
+### Button Blink & LOCK_SOLUTION
 ![Button Blink](https://raw.githubusercontent.com/VCUBrandcenter/PhysicalComputing/gh-pages/media/button_bb.png)
 
 ### Photocell Blink
