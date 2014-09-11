@@ -2,24 +2,32 @@ import processing.serial.*;
 import cc.arduino.*;
 
 Arduino arduino;
-int ledPin = 13;
+int led = 13;
+int button = 2;
 
 void setup(){
   size(600,400);
   
   println(Arduino.list());
   arduino = new Arduino(this, Arduino.list()[2], 57600);
-  arduino.pinMode(ledPin, Arduino.OUTPUT);
+  arduino.pinMode(led, Arduino.OUTPUT);
+  arduino.pinMode(button, Arduino.INPUT);
 }
 
 void draw(){
-  background(255);
+  
+  if(arduino.digitalRead(button) == Arduino.HIGH){
+    background(#397dce); 
+  }else{
+    background(255);
+  }
+  
 }
 
 void mousePressed(){
- arduino.digitalWrite(ledPin, Arduino.HIGH); 
+ arduino.digitalWrite(led, Arduino.HIGH); 
 }
 
 void mouseReleased(){
- arduino.digitalWrite(ledPin, Arduino.LOW); 
+ arduino.digitalWrite(led, Arduino.LOW); 
 }
